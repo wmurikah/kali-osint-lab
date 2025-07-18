@@ -75,8 +75,11 @@ This lab helped us understand how real-world ethical hackers gather intelligence
 **References**
 
 Cisco Networking Academy. (n.d.). Ethical Hacker course materials. https://www.netacad.com/
+
 Offensive Security. (2023). Kali Linux Revealed: Mastering the Penetration Testing Distribution (2nd ed.). Offensive Security. https://kali.training/downloads/Kali-Linux-Revealed-2nd-edition.pdf
+
 Recon-ng. (n.d.). Recon-ng Documentation. GitHub. https://github.com/lanmaster53/recon-ng/wiki
+
 WhatsMyName. (n.d.). OSINT Username Enumeration Tool. https://whatsmyname.app
 
 
