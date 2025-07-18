@@ -1,6 +1,12 @@
 # kali-osint-lab
 Lab project for the MIS 6130: Information Systems Security, Control, and Audit. This repository documents hands-on activities using Kali Linux and open-source intelligence (OSINT) tools such as Recon-ng, SpiderFoot, WhatsMyName, and Shodan to explore ethical hacking techniques.
 
+**Student Name(s): **
+1. Wilberforce Murikah		Student No.: 671566
+2. Sheila Jones			      Student No.: 668439
+3. Moses Shiyuka			    Student No.: 668098
+
+
 **1.3.6 Deploying a Pre-Built Kali Linux Virtual Machine (VM)**
 To start, we downloaded VirtualBox from the official website (virtualbox.org). Then we got the Kali Linux .ova file from Netacad’s lab resources. Using VirtualBox, we clicked on File > Import Appliance , selected the Kali file, and started importing. We increased the memory from 2GB to 4GB before finishing the import. After importing, we powered on the Kali VM. At the login screen, we used the default username and password to log in.
 
