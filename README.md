@@ -28,6 +28,7 @@ We also tested tab completion . For example, when we typed hi and pressed Tab , 
 
 **3.1.4 Using OSINT Tools**
 
+
 We visited osintframework.com using the browser in Kali. The site shows a list of tools organized by category. We clicked on the Username section and selected WhatsMyName (T) This took us to a GitHub page, and from there we went to whatsmyname.app . We entered a few usernames, one per line, into the search box. Then we clicked the green magnifying glass to search. It showed us where those usernames were found online. We sorted and filtered the results and even exported them as a CSV or PDF file.
 
 <img width="583" height="353" alt="image" src="https://github.com/user-attachments/assets/ed86c2dd-65e9-46cb-a697-16ea93d98afa" />
@@ -35,6 +36,7 @@ We visited osintframework.com using the browser in Kali. The site shows a list o
 <img width="800" height="559" alt="image" src="https://github.com/user-attachments/assets/bb05a042-3699-486d-be62-a66138bf7ef6" />
 
 **Using SpiderFoot**
+
 We opened the Kali VM and launched SpiderFoot by typing spiderfoot -l 127.0.0.1:5001 in the terminal. Then we opened the browser and went to http://127.0.0.1:5001, which opened the SpiderFoot web interface.
 
 <img width="583" height="391" alt="image" src="https://github.com/user-attachments/assets/751f4f2f-1684-4b3b-9a99-61bd378fe261" />
@@ -46,6 +48,7 @@ We created a new scan and named it. We set the target to usiu.ac.ke and left the
 <img width="583" height="385" alt="image" src="https://github.com/user-attachments/assets/70c9cf67-c06a-4ffc-93a9-f0b38284ddd5" />
 
 **Investigating with Recon-ng**
+
 We opened the terminal and typed recon-ng to start the tool. At first, no modules were available. We tried show modules , but it didn’t show anything. So, we exited Recon-ng and updated the system using sudo apt update . Then we downloaded Recon-ng from GitHub with the command: sudo git clone https://github.com/lanmaster53/recon-ng.git. We moved into the folder and installed the required tools with: sudo pip3 install -r REQUIREMENTS. After that, we started Recon-ng again, and now the modules were available. We created a new workspace called lab_workspace and loaded it. Then we loaded the bing_domain_web module and set the domain to jkuat.ac.ke . We checked the settings with show options and then ran the module. It searched Bing for links related to jkuat.ac.ke and gave us a list of websites connected to that domain.
 
 <img width="583" height="400" alt="image" src="https://github.com/user-attachments/assets/f841a4d6-9f3d-45ae-88ce-c8d15b73a5e1" />
@@ -65,10 +68,12 @@ We started by launching recon-ng in the terminal. The tool opened successfully a
 <img width="583" height="491" alt="image" src="https://github.com/user-attachments/assets/673c1323-45c4-488e-bc15-32d548ff9e78" />
 
 **Summary of Activities**
+
 As a group, we successfully set up and used Kali Linux, an important tool for ethical hacking. We also explored key OSINT tools such as SpiderFoot, WhatsMyName, and Recon-ng, which allow information gathering from public sources. We practiced how to look up usernames, scan domains for linked hosts, and use the terminal more efficiently with commands like history, sudo, and tab autocompletion. We also learned how to install modules in Recon-ng, troubleshoot missing dependencies, and execute domain-based queries.
 This lab helped us understand how real-world ethical hackers gather intelligence to support security testing, and gave us a hands-on introduction to the practical use of reconnaissance tools.
 
 **References**
+
 Cisco Networking Academy. (n.d.). Ethical Hacker course materials. https://www.netacad.com/
 Offensive Security. (2023). Kali Linux Revealed: Mastering the Penetration Testing Distribution (2nd ed.). Offensive Security. https://kali.training/downloads/Kali-Linux-Revealed-2nd-edition.pdf
 Recon-ng. (n.d.). Recon-ng Documentation. GitHub. https://github.com/lanmaster53/recon-ng/wiki
