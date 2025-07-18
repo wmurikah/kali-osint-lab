@@ -24,6 +24,7 @@ We also tested tab completion . For example, when we typed hi and pressed Tab , 
 <img width="583" height="514" alt="image" src="https://github.com/user-attachments/assets/bfb905db-9288-4940-b3c3-7c271a226f6a" />
 <img width="583" height="514" alt="image" src="https://github.com/user-attachments/assets/e5560887-d0fc-4d5c-a36b-b5b7a383c616" />
 
+
 **3.1.4 Using OSINT Tools**
 
 We visited osintframework.com using the browser in Kali. The site shows a list of tools organized by category. We clicked on the Username section and selected WhatsMyName (T) This took us to a GitHub page, and from there we went to whatsmyname.app . We entered a few usernames, one per line, into the search box. Then we clicked the green magnifying glass to search. It showed us where those usernames were found online. We sorted and filtered the results and even exported them as a CSV or PDF file.
@@ -52,6 +53,7 @@ We opened the terminal and typed recon-ng to start the tool. At first, no module
 <img width="583" height="401" alt="image" src="https://github.com/user-attachments/assets/2d670183-e341-40b2-b09b-9f92ffc3b717" />
 
 **3.1.20 Open-Source Intelligence (OSINT) Gathering**
+
 We started by launching recon-ng in the terminal. The tool opened successfully and showed a welcome message.We used marketplace search to see what modules were available. We saw a long list of tools, some needing API keys or dependencies . We refreshed the marketplace with marketplace refresh , and then searched for modules related to Bing using marketplace search bing . We installed the recon/domains-hosts/bing_domain_web module with the command “marketplace install recon/domains-hosts/bing_domain_web”. The module installed successfully. Even though some warnings showed up (because some tools need API keys), we weren’t affected because this module works without one. We created a workspace called lab_workspace , loaded it, and then loaded the Bing module . We set the source domain to jkuat.ac.ke and confirmed the setting with show options. Then we ran the module using run . It searched Bing for subdomains related to jkuat.ac.ke and returned a list of URLs connected to that domain.
 
 <img width="583" height="474" alt="image" src="https://github.com/user-attachments/assets/de0f2132-20b6-4d0d-a9c6-611e7cc45765" />
