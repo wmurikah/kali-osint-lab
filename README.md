@@ -1,7 +1,7 @@
 # kali-osint-lab
 Lab project for the MIS 6130: Information Systems Security, Control, and Audit. This repository documents hands-on activities using Kali Linux and open-source intelligence (OSINT) tools such as Recon-ng, SpiderFoot, WhatsMyName, and Shodan to explore ethical hacking techniques.
 
-**Student Name(s): **
+Student Name(s):
 1. Wilberforce Murikah		Student No.: 671566
 2. Sheila Jones			      Student No.: 668439
 3. Moses Shiyuka			    Student No.: 668098
