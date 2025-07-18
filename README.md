@@ -25,6 +25,7 @@ We also tested tab completion . For example, when we typed hi and pressed Tab , 
 <img width="583" height="514" alt="image" src="https://github.com/user-attachments/assets/e5560887-d0fc-4d5c-a36b-b5b7a383c616" />
 
 **3.1.4 Using OSINT Tools**
+
 We visited osintframework.com using the browser in Kali. The site shows a list of tools organized by category. We clicked on the Username section and selected WhatsMyName (T) This took us to a GitHub page, and from there we went to whatsmyname.app . We entered a few usernames, one per line, into the search box. Then we clicked the green magnifying glass to search. It showed us where those usernames were found online. We sorted and filtered the results and even exported them as a CSV or PDF file.
 
 <img width="583" height="353" alt="image" src="https://github.com/user-attachments/assets/ed86c2dd-65e9-46cb-a697-16ea93d98afa" />
